@@ -98,19 +98,6 @@ Data-analysis-projects/
     └── credit analysis/
 ```
 
-Each project folder contains its corresponding project files and documentation, where available.
-
-## 🚀 Getting Started
-
-To explore the projects:
-
-1. Open any project folder using the links above.
-2. Review the README file, if available.
-3. Open the Jupyter Notebook to explore the analysis.
-4. Review the visualizations, methodology, and results.
-
-To run a notebook locally, install the required dependencies for that project and ensure its dataset is available at the expected path.
-
 ## 👩‍💻 Author
 
 **Marwa Samy**
