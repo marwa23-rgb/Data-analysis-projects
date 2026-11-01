@@ -110,16 +110,6 @@ This project explores the **Titanic: Machine Learning from Disaster** dataset fr
 | Heatmaps | Missing values before and after cleaning |
 | Confusion matrix | Helper function for evaluating a model's predictions |
 
----
-
-## ⚠️ Limitations
-
-- Scores are measured on the training data, so they overstate how well the models generalize.
-- About 20% of ages were estimated from class and sex, and `Cabin` (77% missing) was dropped entirely.
-- `Age` bands have limited resolution: passengers over 64 are not grouped into a band of their own.
-- Models use mostly default settings; only the SVC was tuned (with `GridSearchCV`).
-- The dataset is small (891 rows), so findings can shift with a different split.
-
 ## 👩‍💻 Author
 
 **Marwa Samy** · [GitHub](https://github.com/marwa23-rgb)
