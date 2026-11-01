@@ -104,8 +104,3 @@ Data-analysis-projects/
 
 - GitHub: [@marwa23-rgb](https://github.com/marwa23-rgb)
 
----
-
-<p align="center">
-  <b>Turning Data into Insights 📈</b>
-</p>
