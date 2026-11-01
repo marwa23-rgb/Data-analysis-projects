@@ -106,18 +106,6 @@ This project uses the **Breast Cancer Wisconsin (Diagnostic)** dataset, in which
 | Line plot | Training vs. validation loss with early stopping |
 | Line plot | Training vs. validation loss with early stopping and dropout |
 
----
-
-## ⚠️ Limitations
-
-- The same 143 rows are used for early stopping (`val_loss`) and for the final evaluation, so the reported 97% is slightly optimistic. A separate validation split or cross-validation would be fairer.
-- The dropout run also changed the optimizer from `adam` to `rmsprop`, so its improvement cannot be credited to dropout alone.
-- `EarlyStopping` was not set to `restore_best_weights=True`, so the saved model is the one from the last epoch, not the best one.
-- The dataset is small (569 rows), and a single random split can shift the metrics.
-- In a medical setting the 3 misses where an actual class-1 case was predicted as class 0 matter as much as the single opposite error, so per-class recall deserves attention beyond overall accuracy.
-- The target column name conflicts with the class counts (see Data Quality).
-
-
 ## 👩‍💻 Author
 
 **Marwa Samy** · [GitHub](https://github.com/marwa23-rgb)
