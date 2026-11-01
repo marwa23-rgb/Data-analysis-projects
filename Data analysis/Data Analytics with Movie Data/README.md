@@ -88,15 +88,6 @@ This project explores a TMDb movie dataset covering films released between **196
 | Line plot | Number of movies released each year |
 | Heatmaps | Average budget and revenue by genre and release year |
 
----
-
-## ⚠️ Limitations
-
-- Many budget and revenue values are zero or missing, which can distort averages and profit.
-- It is unclear how `popularity` and `vote_count` are measured.
-- Budget and revenue for foreign movies have no stated currency, and inflation over the years should be considered (the `_adj` columns help with this).
-- The runtime groups in the analysis overlap (the "medium" group also includes the "short" movies), and the exact best runtime is not shown clearly by the charts.
-
 
 ## 👩‍💻 Author
 
